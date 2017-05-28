@@ -1,0 +1,15 @@
+<p *ngIf="!areElements">there are no elements to show</p>
+
+<div *ngIf="areElements" class="col-xs-12">
+	<div class="row">
+
+		<div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 NorightP backImg" [injectedStyle]="specificStyleName" *ngFor="let item of elements; let i = index" [itemHeightGallery]="i" [backImg]="item.imgUrl">
+			<a [routerLink]="[stamp, item.id]" class="itemGalleryAnchor">
+				<span class="nameItem">{{item.name}}</span>
+				<span class="placeItem">{{item.place}}</span>
+				<span class="yearItem">{{item.year}}</span>
+			</a>
+		</div>
+
+	</div>
+</div>

@@ -1,0 +1,59 @@
+.biographieSection {
+  min-height: 400px !important;
+  background-color: white;
+  padding-top: 30px;
+  background-image: url("../assets/bio/letters.png");
+  background-clip: border-box; }
+  .biographieSection .title {
+    text-decoration: none !important;
+    color: black !important;
+    cursor: pointer;
+    font-size: 32px; }
+  .biographieSection .rowSection .imageBioPrstSection {
+    min-height: 350px;
+    margin-top: 20px;
+    padding-left: 0;
+    background-image: url("../assets/bio/ex2.jpg"); }
+  .biographieSection .rowSection .txtBioPrstSection .bioPrstTxt {
+    font-family: sans serif;
+    font-size: 3em;
+    text-decoration: none !important;
+    color: black !important;
+    cursor: pointer; }
+  .biographieSection .rowSection .bioPrstIconsSect {
+    display: flex;
+    height: 60px;
+    justify-content: center; }
+    .biographieSection .rowSection .bioPrstIconsSect .bioPrstIconsCont {
+      min-width: 100px;
+      display: flex;
+      justify-content: space-around; }
+      .biographieSection .rowSection .bioPrstIconsSect .bioPrstIconsCont .bioIcon {
+        text-decoration: none !important;
+        font-size: 26px;
+        color: gray !important;
+        cursor: pointer;
+        text-align: center; }
+        .biographieSection .rowSection .bioPrstIconsSect .bioPrstIconsCont .bioIcon .showOnHover {
+          display: none;
+          font-size: 10px; }
+        .biographieSection .rowSection .bioPrstIconsSect .bioPrstIconsCont .bioIcon:hover .showOnHover {
+          display: block; }
+        .biographieSection .rowSection .bioPrstIconsSect .bioPrstIconsCont .bioIcon.prizesIcon:hover {
+          color: #ffbf25 !important;
+          font-size: 30px; }
+        .biographieSection .rowSection .bioPrstIconsSect .bioPrstIconsCont .bioIcon.timelineIcon:hover {
+          color: green !important;
+          font-size: 30px; }
+        .biographieSection .rowSection .bioPrstIconsSect .bioPrstIconsCont .bioIcon.cvIcon:hover {
+          color: blue !important;
+          font-size: 30px; }
+
+@media(min-width: 500px) {
+  .biographieSection .rowSection .txtBioPrstSection .bioPrstTxt {
+    font-size: 4em; } }
+@media(min-width: 700px) {
+  .biographieSection .rowSection .txtBioPrstSection .bioPrstTxt {
+    font-size: 5em; } }
+
+/*# sourceMappingURL=bioSection.css.map */

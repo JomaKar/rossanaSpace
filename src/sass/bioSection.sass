@@ -1,0 +1,86 @@
+.biographieSection
+	min-height: 400px !important
+	background-color: white
+	padding-top: 30px
+	background-image: url("../assets/bio/letters.png")
+	background-clip: border-box
+
+	.title
+		text-decoration: none !important
+		color: black !important
+		cursor: pointer
+		font-size: 32px
+
+	.rowSection
+		.imageBioPrstSection
+			min-height: 350px
+			margin-top: 20px
+			padding-left: 0
+			background-image: url("../assets/bio/ex2.jpg")
+
+		.txtBioPrstSection
+			.bioPrstTxt
+				font-family: sans serif
+				font-size: 3em
+				text-decoration: none !important
+				color: black !important
+				cursor: pointer
+
+		.bioPrstIconsSect
+			display: flex
+			height: 60px
+			justify-content: center
+
+			.bioPrstIconsCont
+				min-width: 100px
+				display: flex
+				justify-content: space-around
+
+				.bioIcon
+					text-decoration: none !important
+					font-size: 26px
+					color: gray !important
+					cursor: pointer
+					text-align: center
+					
+					.showOnHover
+						display: none
+						font-size: 10px
+
+					&:hover
+						.showOnHover
+							display: block
+
+					&.prizesIcon
+						&:hover
+							color: #ffbf25 !important
+							font-size: 30px
+
+					&.timelineIcon
+						&:hover
+							color: green !important
+							font-size: 30px
+
+					&.cvIcon
+						&:hover
+							color: blue !important
+							font-size: 30px
+
+@media(min-width: 500px)
+	.biographieSection
+		.rowSection
+			.txtBioPrstSection
+				.bioPrstTxt
+					font-size: 4em
+
+@media(min-width: 700px)
+	.biographieSection
+		.rowSection
+			.txtBioPrstSection
+				.bioPrstTxt
+					font-size: 5em
+
+
+
+
+

@@ -1,0 +1,92 @@
+.mainFooter
+	height: 50px
+	background-color: #360000
+	position: fixed !important
+	bottom: 0
+	display: flex
+	justify-content: space-between
+
+	.footerSection
+		width: 30%
+
+		&.listFooterSection
+			height: 100%
+
+			.iconsList
+				width: 100%
+				padding-left: 18px !important
+				display: flex
+				justify-content: flex-start
+				flex-shrink: 2
+				padding-top: 9px
+				margin-bottom: 0px
+
+				.socialIconItm
+					list-style-type: none
+					text-decoration: none !important
+					margin-right: 10px
+
+					&.linKedin
+						color: #0A4364
+					&.pInterest
+						color: #C10008
+					&.faceBook
+						color: #0A38A3
+					&.twiTter
+						color: #4BB1F7
+
+					.footerIconAnchor
+						text-decoration: none !important
+						color: inherit !important
+						font-size: 22px
+
+		&.nameFooterSection
+			color: white
+			height: 100%
+			padding-right: 18px
+
+			.kunstlerinName
+				font-size: 12px
+				text-align: right
+				margin-top: 14px !important
+				margin-bottom: 0px !important
+
+	.copyRight
+		width: 10%
+		color: white
+		font-size: 13px
+		padding-top: 10px
+		text-align: center
+
+@media(min-width: 600px)
+	.mainFooter
+
+		.footerSection
+
+			&.listFooterSection
+
+				.iconsList
+					padding-top: 4px
+
+					.socialIconItm
+
+						.footerIconAnchor
+							font-size: 30px
+
+			&.nameFooterSection
+
+				.kunstlerinName
+					font-size: 15px
+
+@media(min-width: 800px)
+	.mainFooter
+
+		.footerSection
+
+			&.nameFooterSection
+
+				.kunstlerinName
+					font-size: 19px
+
+
+

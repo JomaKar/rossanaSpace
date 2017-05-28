@@ -1,0 +1,13 @@
+/*grays */
+.headerModule {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column; }
+  .headerModule .headerTitle {
+    font-size: 5em;
+    color: red; }
+  .headerModule .subHeader {
+    text-align: center; }
+
+/*# sourceMappingURL=headeR.css.map */

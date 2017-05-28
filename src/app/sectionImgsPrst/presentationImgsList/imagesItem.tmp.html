@@ -1,0 +1,11 @@
+<div class="col-xs-12 {{middleClass}} col-lg-12 NorightP itemContainer" (click)="goToSection(element.pointer)" >
+	<div class="row-fluid itemInnerRow">
+		<div class="{{imageSectionClasses}} itemImgCont backImg noPadding cursorPointer" #imgDiv></div>
+		<div class="{{abstracSectionClasses}} itemInfoCont noPadding cursorPointer" #abstDiv>
+			<h4 class="itmTitle"> {{element.title}}</h4>
+			<p class="itmAbstract">
+				{{element.abstract}}
+			</p>
+		</div>
+	</div>
+</div>

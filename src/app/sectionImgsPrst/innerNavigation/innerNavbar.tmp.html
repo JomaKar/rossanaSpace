@@ -1,0 +1,31 @@
+<nav class="navbar-inverse noBack">
+	<div class="container-fluid">
+	<!-- Brand and toggle get grouped for better mobile display -->
+		<div class="navbar-header">
+			<button type="button" (click)="displayMenu()" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navToggle" aria-expanded="false">
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			<a routerLink="/works" class="navbar-brand halfPadding">
+				Werke
+			</a>
+		</div>
+
+		<!-- Collect the nav links, forms, and other content for toggling -->
+		<div class="collapse navbar-collapse" id="navToggle" #navbarMenu>
+			<ul class="nav navbar-nav navbar-right" #menuList>
+				<li (click)="displayMenu()">
+					<a routerActiveLink="active" routerLink="/works/paint">Malerei</a>
+				</li>
+				<li (click)="displayMenu()">
+					<a routerActiveLink="active" routerLink="/works/installation">Installierung</a>
+				</li>
+				<li (click)="displayMenu()">
+					<a routerActiveLink="active" routerLink="/works/sculpture">Skulptur</a>
+				</li>
+			</ul>
+		</div>
+
+	</div>
+</nav>

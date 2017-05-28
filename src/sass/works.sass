@@ -1,0 +1,37 @@
+.worksGallery
+	margin-bottom: 20px
+	display: flex
+	flex-direction: column
+	justify-content: flex-end
+	background-position: center top
+
+	.itemGalleryAnchor
+		cursor: pointer
+		height: 20%
+		width: 100%
+		background-color: black
+		color: white !important
+		text-decoration: none !important
+		text-align: center
+		display: flex
+		padding-top: 10px
+		font-size: 22px
+		justify-content: space-around
+
+@media(min-width: 992px)
+	.worksGallery
+		.itemGalleryAnchor
+			display: none
+
+		&:hover
+			.itemGalleryAnchor
+				display: flex
+				height: 100%
+				flex-direction: column
+				padding-top: 0
+				color: black !important
+				font-size: 30px
+				font-weight: 700
+				background-color: rgba(255, 255, 255, 0.7)
+
+				

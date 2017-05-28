@@ -1,0 +1,8 @@
+<section class="imgsPresentation col-xs-12" #sectionImgs>
+
+	<inner-navbar *ngIf="global"></inner-navbar>
+	<h1 *ngIf="!global"> <a routerLink="{{pointer}}" class="titleImgsPrstLink">{{title}}</a> </h1>
+
+	<image-list-ul [listElements]="listReference" [elementsNum]="noOfElements"></image-list-ul>
+	
+</section>

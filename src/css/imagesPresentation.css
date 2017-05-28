@@ -1,0 +1,53 @@
+/*grays */
+.imgsPresentation {
+  min-height: 400px !important;
+  color: #d0d0d0 !important; }
+  .imgsPresentation h1 .titleImgsPrstLink {
+    color: inherit !important;
+    text-decoration: none !important; }
+  .imgsPresentation.shadowRight {
+    box-shadow: -10px -15px 42px 3px #f5f5f5 inset; }
+  .imgsPresentation.shadowLeft {
+    box-shadow: 10px -15px 42px 3px #f5f5f5 inset; }
+  .imgsPresentation .presentationList {
+    width: 100%;
+    margin: 30px 0; }
+    .imgsPresentation .presentationList .itemContainer {
+      min-height: 300px;
+      margin-bottom: 20px; }
+      .imgsPresentation .presentationList .itemContainer .itemInnerRow .itemImgCont {
+        min-height: 200px; }
+      .imgsPresentation .presentationList .itemContainer .itemInnerRow .itemInfoCont {
+        font-family: sans-serif;
+        color: black;
+        background-color: white;
+        background-clip: content-box;
+        -webkit-background-clip: content-box; }
+        .imgsPresentation .presentationList .itemContainer .itemInnerRow .itemInfoCont .itmTitle {
+          font-size: 16px;
+          padding-left: 7.5px; }
+        .imgsPresentation .presentationList .itemContainer .itemInnerRow .itemInfoCont .itmAbstract {
+          font-size: 12px;
+          padding: 7.5px; }
+  .imgsPresentation.miniShadows .presentationList .itemContainer {
+    box-shadow: 9px 8px 15px -4px #1d1d1d; }
+
+@media(min-width: 1200px) {
+  .imgsPresentation.miniShadows .presentationList .itemContainer {
+    box-shadow: none; }
+  .imgsPresentation.shadowRight {
+    box-shadow: none; }
+  .imgsPresentation.shadowLeft {
+    box-shadow: none; }
+  .imgsPresentation .presentationList .itemContainer {
+    min-height: 200px; }
+    .imgsPresentation .presentationList .itemContainer .itemInnerRow .itemImgCont {
+      padding-right: 0 !important; }
+    .imgsPresentation .presentationList .itemContainer .itemInnerRow .itemInfoCont {
+      padding-left: 0 !important;
+      min-height: 200px;
+      display: flex;
+      justify-content: space-around;
+      flex-direction: column; } }
+
+/*# sourceMappingURL=imagesPresentation.css.map */
